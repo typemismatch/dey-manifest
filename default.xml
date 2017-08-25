@@ -8,8 +8,9 @@
   <remote name="swu"   fetch="git://github.com/sbabic"/>
   <remote name="oe"    fetch="git://git.openembedded.org"/>
   <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+  <remote name="typo"  fetch="git://github.com/typemismatch"/>
 
-  <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="2c4c4dff4a220ba315b85fafc38fffe0223d233f">
+  <project name="meta-digi.git" path="sources/meta-digi" remote="typo" revision="morty">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
   </project>
   <project name="meta-freescale.git"    path="sources/meta-freescale"    remote="yocto" revision="fa774ad7fb797957601a8c9fee45af453fea34b7"/>
